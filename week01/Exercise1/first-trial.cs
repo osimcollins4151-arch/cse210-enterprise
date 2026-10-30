@@ -2,7 +2,7 @@ using System;
 
 namespace game
 {
-    class program
+    class Program
     {
         static void Main(string[] args)
         {
