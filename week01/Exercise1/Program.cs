@@ -7,10 +7,11 @@ class Program
         Console.WriteLine("Hello World! This is my first program in C#");
 
         Console.Write("What is your first name? ");
-        string FirstName = Console.ReadLine("");
+        string FirstName = Console.ReadLine();
 
         Console.Write("What is your last name? ");
-        string LastName = Console.ReadLine("");
+        string LastName = Console.ReadLine();
+        Console.WriteLine();
 
         Console.WriteLine($"Your name is {LastName}, {FirstName} {LastName}.");
     }
